@@ -1,0 +1,10 @@
+# Configuration Management Plan #
+
+**1.	Software Management**
+
+Maintaining and tracking the various versions of this software will be done using Git in conjunction with Google Code (https://code.google.com/). The master repository, which will store the most up-to-date version of the software, along with all committed changes to that software, will be stored at https://code.google.com/p/farkle-csc478/.  Each student working on this project will download a local copy of the master repository, make changes to the code (testing the changes as they progress), and upload those changes back to the master repository.  This workflow will allow each individual to test any code changes made prior to uploading revised code, and will also allow the team to easily revert to a past version of the code should mistakes be made.
+Versions will be tracked using the major.minor.build convention. Three major releases are anticipated during the incremental approach used in developing this software, and these releases will be labeled versions 1.0.0, 2.0.0, and 3.0.0.  The minor versions will be updated as bug fixes are incorporated, and the build versions will be created as needed.  Upon each major release, the master repository will be forked allowing for the rapid recreation of older versions (should they be needed).  In addition to forking the master repository, a copy of the entire project folder will be compressed and stored in a shared folder on Google Drive ensuring redundancy in the stored versions of the software.
+
+**2.	Documentation Management**
+
+The master version of all documentation will be created in Microsoft Word 2013 and stored in a shared folder on Google Drive.  This master version will be used to update the wiki associated with the project on Google Code, which is located at https://code.google.com/p/farkle-csc478/w/list. The Google Code wiki uses Git for version control allowing previous versions of the documentation to be generated quickly if necessary.
